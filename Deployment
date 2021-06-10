@@ -1,8 +1,6 @@
-(Kubernetes)K8s Setup in AWS
+(Kubernetes)K8s Setup in cloud
 
-
-
-Launch multiple instance on AWS by selecting any linux OS 
+Launch multiple instances on AWS/any cloud by selecting any linux OS 
    --> give proper number cores based on size of the instance 
      --> make sure select default group or communication between the instances having no issues
         --> Login into the instances from the terminal
