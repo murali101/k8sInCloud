@@ -1,4 +1,4 @@
-#(Kubernetes)K8s Setup in cloud
+## (Kubernetes)K8s Setup in cloud
 
 Launch multiple instances on AWS/any cloud by selecting any linux OS  
    
