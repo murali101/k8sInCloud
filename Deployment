@@ -1,6 +1,6 @@
 (Kubernetes)K8s Setup in AWS
 
-<<InProgress>>
+
 
 Launch multiple instance on AWS by selecting any linux OS 
    --> give proper number cores based on size of the instance 
