@@ -1,15 +1,19 @@
 #(Kubernetes)K8s Setup in cloud
 
-Launch multiple instances on AWS/any cloud by selecting any linux OS 
-   --> give proper number cores based on size of the instance 
-     --> make sure select default group or communication between the instances having no issues
+Launch multiple instances on AWS/any cloud by selecting any linux OS  
+   
+    --> give proper number cores based on size of the instance 
+     
+        --> make sure select default group or communication between the instances having no issues
+     
         --> Login into the instances from the terminal
-          ```--> install Docker (all instances) : (https://docs.docker.com/engine/install/ubuntu/)
+        
+            --> install Docker (all instances) : (https://docs.docker.com/engine/install/ubuntu/)
                   1. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
                      or
                      curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
                   2. sudo apt-get update
-                  3. sudo apt-get install docker-ce```
+                  3. sudo apt-get install docker-ce
             --> Install K8s (all instances) : https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
                   1. sudo apt-get install -y apt-transport-https ca-certificates curl
                   2. sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
